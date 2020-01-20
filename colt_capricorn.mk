@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2018 The LineageOS Project
+# Copyright (C) 2017-2020 The ColtOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,11 +21,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from capricorn device
 $(call inherit-product, device/xiaomi/capricorn/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common ColtOS stuff.
+$(call inherit-product, vendor/colt/config/common.mk)
+
+# BOOTANIMATION
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_capricorn
+PRODUCT_NAME := colt_capricorn
 PRODUCT_DEVICE := capricorn
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 5s

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2019 The LineageOS Project
+# Copyright (C) 2017-2020 The ColtOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_capricorn.mk
+    $(LOCAL_DIR)/colt_capricorn.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_capricorn-user \
-    lineage_capricorn-userdebug \
-    lineage_capricorn-eng
+    colt_capricorn-user \
+    colt_capricorn-userdebug \
+    colt_capricorn-eng
