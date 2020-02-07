@@ -25,7 +25,7 @@ $(call inherit-product, device/xiaomi/capricorn/device.mk)
 $(call inherit-product, vendor/colt/config/common.mk)
 
 # BOOTANIMATION
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1080x1920
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := colt_capricorn
