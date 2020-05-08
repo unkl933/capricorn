@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2017-2019 The LineageOS Project
+# Copyright (C) 2018-2020 The SuperiorOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_capricorn.mk
+    $(LOCAL_DIR)/superior_capricorn.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_capricorn-user \
-    lineage_capricorn-userdebug \
-    lineage_capricorn-eng
+    superior_capricorn-user \
+    superior_capricorn-userdebug \
+    superior_capricorn-eng
