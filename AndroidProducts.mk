@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2020 The SuperiorOS Project
+# Copyright (C) 2018-2020 The ReloadedOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_capricorn.mk
+    $(LOCAL_DIR)/reloaded_capricorn.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_capricorn-user \
-    superior_capricorn-userdebug \
-    superior_capricorn-eng
+    reloaded_capricorn-user \
+    reloaded_capricorn-userdebug \
+    reloaded_capricorn-eng
