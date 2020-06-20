@@ -24,11 +24,13 @@ $(call inherit-product, device/xiaomi/capricorn/device.mk)
 # Inherit some common aosp stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-# I need ur love and money 
+# xxxxx
 EVO_DONATE_URL := https://www.paypal.me/henmadx
 EVO_MAINTAINER := "Henma"
 EVO_SUPPORT_URL := https://t.me/EvolutionX
 CUSTOM_BUILD_TYPE := Sali
+TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 # Target Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
