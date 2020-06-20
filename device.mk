@@ -41,6 +41,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# Face unlock
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_FACE_UNLOCK := true
+TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK := false
+
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service
@@ -62,6 +67,10 @@ PRODUCT_COPY_FILES += \
 # Touch HAL
 PRODUCT_PACKAGES += \
     vendor.lineage.touch@1.0-service.xiaomi_8996
+
+# Papers
+PRODUCT_PACKAGES += \
+    Papers
 
 # Thermal
 PRODUCT_COPY_FILES += \

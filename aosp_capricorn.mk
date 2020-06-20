@@ -21,14 +21,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from capricorn device
 $(call inherit-product, device/xiaomi/capricorn/device.mk)
 
-# Inherit some common Superior stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# I need ur love and money 
+EVO_DONATE_URL := https://www.paypal.me/henmadx
+EVO_MAINTAINER := "Henma"
+EVO_SUPPORT_URL := https://t.me/EvolutionX
+CUSTOM_BUILD_TYPE := Sali
 
 # Target Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := superior_capricorn
+PRODUCT_NAME := aosp_capricorn
 PRODUCT_DEVICE := capricorn
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 5s
@@ -42,7 +48,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 BUILD_FINGERPRINT := "Xiaomi/capricorn/capricorn:7.0/NRD90M/V9.5.4.0.NAGMIFD:user/release-keys"
-
-# Maintainer SuperiorOS for Capricorn
-PRODUCT_PROPERTY_OVERRIDES += \
-        ro.superior.maintainer=henmadx

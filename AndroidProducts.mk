@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_capricorn.mk
+    $(LOCAL_DIR)/aosp_capricorn.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_capricorn-user \
-    superior_capricorn-userdebug \
-    superior_capricorn-eng
+    aosp_capricorn-user \
+    aosp_capricorn-userdebug \
+    aosp_capricorn-eng
