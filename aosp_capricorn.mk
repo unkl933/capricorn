@@ -28,7 +28,7 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 EVO_DONATE_URL := https://www.paypal.me/henmadx
 EVO_MAINTAINER := "Henma"
 EVO_SUPPORT_URL := https://t.me/EvolutionX
-CUSTOM_BUILD_TYPE := Sali
+CUSTOM_BUILD_TYPE := ENDJOY
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
