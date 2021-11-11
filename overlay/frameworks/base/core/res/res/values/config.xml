@@ -139,5 +139,5 @@
     <!-- Button Fix -->
     <integer name="config_deviceHardwareKeys">83</integer>
     <integer name="config_button_brightness_default">128</integer>
-    <integer name="config_deviceHardwareWakeKeys">69</integer>
+    <integer name="config_deviceHardwareWakeKeys">65</integer>
 </resources>
