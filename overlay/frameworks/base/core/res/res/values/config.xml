@@ -139,6 +139,7 @@
     <!-- Button Fix -->
     <integer name="config_deviceHardwareKeys">83</integer>
     <integer name="config_button_brightness_default">128</integer>
+    <bool name="config_button_brightness_support">true</bool>
 
     <!-- Button backlight control. Possible values are:
             0 - Not supported
