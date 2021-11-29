@@ -32,7 +32,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    GoogleCameraGo
 
 # Device init scripts
 PRODUCT_PACKAGES += \
