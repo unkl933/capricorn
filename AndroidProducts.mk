@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_capricorn.mk
+    $(LOCAL_DIR)/qassa_capricorn.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_capricorn-user \
-    rr_capricorn-userdebug \
-    rr_capricorn-eng
+    qassa_capricorn-user \
+    qassa_capricorn-userdebug \
+    qassa_capricorn-eng
