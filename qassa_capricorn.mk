@@ -38,7 +38,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="capricorn" \
-    PRIVATE_BUILD_DESC="capricorn-user 7.0 NRD90M V9.5.4.0.NAGMIFD release-keys"
+    PRIVATE_BUILD_DESC="capricorn-user 8.0.0 OPR1.170623.032 V10.2.2.0.OAAMIXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "Xiaomi/capricorn/capricorn:7.0/NRD90M/V9.5.4.0.NAGMIFD:user/release-keys"
+BUILD_FINGERPRINT := "google/marlin/marlin:8.0.0/OPR1.170623.032/4397478:user/release-keys"
